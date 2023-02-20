@@ -25,9 +25,6 @@ int main(void)
 	else
 	{
 		printf("less than 6 and not 0\n");
-	}	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	}
 	return (0);
 }
