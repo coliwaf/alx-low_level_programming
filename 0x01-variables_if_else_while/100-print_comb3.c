@@ -11,7 +11,7 @@ int main(void)
 
 	for (numb1 = 48; numb1 <= 57; numb1++)
 	{
-		for (numb2 = 48; numb2 <= 57; numb2++)
+		for (numb2 = numb1 + 1; numb2 <= 57; numb2++)
 		{
 			putchar(numb1);
 			putchar(numb2);
