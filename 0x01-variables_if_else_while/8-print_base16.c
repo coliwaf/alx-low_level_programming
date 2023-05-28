@@ -9,8 +9,8 @@ int main(void)
 	int numb;
 	char chr;
 
-	for (n = 48; n <= 57; n++)
-		putchar(n);
+	for (numb = 48; numb <= 57; numb++)
+		putchar(numb);
 	for (chr = 'a'; chr <= 'f'; chr++)
 		putchar(chr);
 	putchar('\n');
