@@ -4,7 +4,7 @@
  * main - prints alphabet, plus new line
  * Return: 0
  */
-int main(0)
+int main(void)
 {
 	char chr;
 
