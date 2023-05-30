@@ -4,7 +4,7 @@
  * jack_bauer - printa evry minute of 24hr day
  * Return: n/a
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 	int hrs, mins;
 
