@@ -8,15 +8,20 @@ void jack_bauer(void)
 {
 	int hrs, mins;
 
-	for (hrs = 0; hrs < 24; hrs++)
+	hrs = 0;
+	while (hrs < 24)
 	{
-		for(mins = 0; mins < 60; mins++)
+		mins = 0;
+		while (mins < 60)
 		{
 			_putchar((hrs / 10) + '0');
 			_putchar((hrs % 10) + '0');
 			_putchar(':');
 			_putchar((mins / 10) + '0');
 			_putchar((mins % 10) + '0');
+			_putchar('\n');
+			mins++;
 		}
+		hrs++;
 	}
 }
