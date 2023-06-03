@@ -21,4 +21,4 @@ void rev_string(char *s)
 		s[len--] = s[idx];
 		s[idx++] = temp;
 	}
-}	
+}
