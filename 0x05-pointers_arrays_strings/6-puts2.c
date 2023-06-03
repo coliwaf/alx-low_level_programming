@@ -2,7 +2,7 @@
 
 /**
  * puts2 - prints even chars in a string
- * @s: string
+ * @str: string
  */
 
 void puts2(char *str)
