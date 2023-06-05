@@ -6,7 +6,7 @@
  * Return: pointer to str
  */
 
-char *leet(char s)
+char *leet(char *s)
 {
 	int i, j;
 	int s1[] = {97, 101, 111, 116, 108};
@@ -15,13 +15,13 @@ char *leet(char s)
 
 	i = 0;
 
-	while (s[0] != '\0')
+	while (*(s + i) != '\0')
 	{
 		for (j = 0; j < 5; j++)
 		{
-			if (s[i] == s1[j] || s[i] == s2[j])
+			if (*(s + i) == s1[j] || *(s + i) == s2[j])
 			{
-				s[i] = num[i];
+				*(s + i) = num[i];
 				break;
 			}
 		}
