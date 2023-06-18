@@ -3,3 +3,4 @@
 !.gitignore
 !*.h
 !libmy.a
+!*.sh
