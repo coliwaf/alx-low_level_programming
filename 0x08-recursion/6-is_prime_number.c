@@ -1,6 +1,7 @@
 #include "main.h"
 
-int calc_prime (int numb, int d);
+int calc_prime(int numb, int d);
+
 /**
  * is_prime_number - check if number is prime
  * @n: number to check
@@ -19,8 +20,7 @@ int is_prime_number(int n)
  * @d: the divider param
  * Return: 1 if prime, 0 if not
  */
-
-int calc_prime (int numb, int d)
+int calc_prime(int numb, int d)
 {
 	if (d == 1)
 		return (1);
