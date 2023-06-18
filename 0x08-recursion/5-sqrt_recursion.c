@@ -3,7 +3,7 @@
 int find_the_sqrt(int numb, int root);
 
 /**
- * _sqrt_recusion - returns natural square root of number
+ * _sqrt_recursion - returns natural square root of number
  * @n: number param
  * Return: square root
  */
