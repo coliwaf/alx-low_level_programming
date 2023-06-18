@@ -20,7 +20,7 @@ int is_prime_number(int n)
  * Return: 1 if prime, 0 if not
  */
 
-int calc_prime (int numb, int d);
+int calc_prime (int numb, int d)
 {
 	if (d == 1)
 		return (1);
