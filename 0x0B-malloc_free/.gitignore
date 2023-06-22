@@ -2,3 +2,5 @@
 !README.md
 !.gitignore
 !*.h
+!*.c
+*-main.c
