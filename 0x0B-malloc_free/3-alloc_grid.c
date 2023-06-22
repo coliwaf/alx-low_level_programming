@@ -6,7 +6,7 @@
  * each element should be initialed to 0
  * @width: width of array
  * @height: height of array
- * Return: Null on failure, NULL if either width or height 
+ * Return: Null on failure, NULL if either width or height
  * is 0  or negative
  */
 int **alloc_grid(int width, int height)
