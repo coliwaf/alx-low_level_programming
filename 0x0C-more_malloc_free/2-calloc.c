@@ -23,6 +23,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	for (count = 0; count < (nmemb * size); count++)
 		ptr[count] = 0;
-	
+
 	return (ptr);
 }
