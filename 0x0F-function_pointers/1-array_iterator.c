@@ -1,3 +1,4 @@
+#include <stddef.h>
 #include "function_pointers.h"
 
 /**
@@ -6,7 +7,7 @@
  * @size: size of the array
  * @action: func pointer
  */
-void array_iterator(int *array, size_t size, void (*array)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
