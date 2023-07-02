@@ -48,6 +48,7 @@ int op_div(int a, int b)
  * op_mod - calculates modulo of two integers
  * @a: first integer param
  * @b: second integer param
+ * Return: remainder of a divided by b (its modulo)
  */
 int op_mod(int a, int b)
 {

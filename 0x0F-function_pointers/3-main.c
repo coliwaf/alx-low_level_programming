@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * main: calculates math of two integers and an operator
+ * main - calculates math of two integers and an operator
  * via a function pointer.
  * @argc: arguments counter
  * @argv: list of arguments
