@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binary-to_uint - func converts a binary to an unsigned int
+ * binary_to_uint - func converts a binary to an unsigned int
  * @b: pointer to string having the binary param
  * Return: unsigned intin decimal, otherwise return 0
  */
